@@ -1,0 +1,46 @@
+{
+  "version": "v402",
+  "date": "1645438135",
+  "variants": [
+    {
+      "name": "treble_arm64_bvN",
+      "size": "698794640",
+      "url": "https://sourceforge.net/projects/gsi-projects/files/v402/BlissOS-15.2/BlissOS-15.2-arm64_ab-bvN-Unofficial.img.xz"
+    },
+    {
+      "name": "treble_arm64_bvN-vndklite",
+      "size": "769974108",
+      "url": "https://sourceforge.net/projects/gsi-projects/files/v402/BlissOS-15.2/BlissOS-15.2-arm64_ab-bvN-vndklite-Unofficial.img.xz"
+   },
+   {
+      "name": "treble_arm64_bgN"
+      "size": "1016213388"
+      "url": "https://sourceforge.net/projects/gsi-projects/files/v402/BlissOS-15.2/BlissOS-15.2-arm64_ab-bgN-Unofficial.img.xz"
+   },
+   {
+      "name": "treble_arm64_bgN-vndklite",
+      "size": "1081751404",
+      "url": "https://sourceforge.net/projects/gsi-projects/files/v402/BlissOS-15.2/BlissOS-15.2-arm64_ab-bgN-vndklite-Unofficial.img.xz"
+   },
+   {
+      "name": "treble_a64_bvN",
+      "size": "573637008",
+      "url": "https://sourceforge.net/projects/gsi-projects/files/v402/BlissOS-15.2/BlissOS-15.2-a64-bvN-Unofficial.img.xz"
+   },
+   {
+      "name": "treble_a64_bvN-vndklite",
+      "size": "610322056",
+      "url": "https://sourceforge.net/projects/gsi-projects/files/v402/BlissOS-15.2/BlissOS-15.2-a64-bvN-vndklite-Unofficial.img.xz"
+   },
+   {
+      "name": "treble_a64_bgN",
+      "size": "881991848",
+      "url": "https://sourceforge.net/projects/gsi-projects/files/v402/BlissOS-15.2/BlissOS-15.2-a64_ab-bgN-Unofficial.img.xz"
+   },
+   {
+      "name": "treble_a64_bgN-vndklite",
+      "size": "908426572",
+      "url": "https://sourceforge.net/projects/gsi-projects/files/v402/BlissOS-15.2/BlissOS-15.2-arm64_ab-bvN-vndklite-Unofficial.img.xz"
+   }
+  ]
+}
