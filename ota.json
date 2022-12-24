@@ -1,0 +1,11 @@
+{
+  "version": "v16.2",
+  "date": "1671854906",
+  "variants": [
+    {
+      "name": "treble_arm64_bvN",
+      "size": "806048072",
+      "url": "https://sourceforge.net/projects/gsi-projects/files/A13/BlissOS/v16.2/24122022/BlissOSv16.2-arm64-bvN-Unofficial.img.xz"
+    }
+  ]
+}
