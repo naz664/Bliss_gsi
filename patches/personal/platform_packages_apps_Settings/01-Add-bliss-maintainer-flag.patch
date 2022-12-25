@@ -1,0 +1,26 @@
+From be4f2c06bc1206795b2ea315e87ab7a7e46faf2f Mon Sep 17 00:00:00 2001
+From: naz664 <nazimnavas145@gmail.com>
+Date: Sun, 25 Dec 2022 13:41:04 +0000
+Subject: [PATCH] Add bliss maintainer flag
+
+Change-Id: Ie710ed9eea39f5070f85856ad3efecf01e49da9f
+---
+ res/values/bliss_strings.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/res/values/bliss_strings.xml b/res/values/bliss_strings.xml
+index 3c6b7f833a..124f482b61 100644
+--- a/res/values/bliss_strings.xml
++++ b/res/values/bliss_strings.xml
+@@ -28,7 +28,7 @@
+ 
+     <!-- Bliss maintainer -->
+     <string name="maintainer">Maintainer</string>
+-    <string name="bliss_maintainer">Unofficial Maintainer</string>
++    <string name="bliss_maintainer">Nazim</string>
+ 
+     <!-- String for removal of sensitive info on about, depending on tap -->
+     <string name="device_info_protected_single_press">Tap to show info</string>
+-- 
+2.25.1
+

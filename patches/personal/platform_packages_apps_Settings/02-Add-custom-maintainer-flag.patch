@@ -1,0 +1,32 @@
+From f250a090420f2dcc8fff0bf1e0e2755d72d0ab3d Mon Sep 17 00:00:00 2001
+From: naz664 <nazimnavas145@gmail.com>
+Date: Sun, 25 Dec 2022 13:42:04 +0000
+Subject: [PATCH] Add custom maintainer flag
+
+Change-Id: I869de8d76f64293338d0c6f6ce6166ced8be8610
+---
+ res/xml/firmware_version.xml | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+diff --git a/res/xml/firmware_version.xml b/res/xml/firmware_version.xml
+index 659a127586..6b02010f3f 100644
+--- a/res/xml/firmware_version.xml
++++ b/res/xml/firmware_version.xml
+@@ -30,6 +30,14 @@
+         settings:searchable="false"
+         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+ 
++    <!-- Bliss maintainer -->
++    <Preference
++        android:key="maintainer"
++        android:title="@string/maintainer"
++        android:summary="@string/summary_placeholder"
++        settings:enableCopying="true"
++        settings:controller="com.android.settings.deviceinfo.bliss.BlissMaintainerPreferenceController"/>
++
+     <!-- Security patch -->
+     <Preference
+         android:key="security_key"
+-- 
+2.25.1
+
