@@ -1,0 +1,25 @@
+From 2f74f007a2fe7c27d469932ab42d1d15e4eade1e Mon Sep 17 00:00:00 2001
+From: naz664 <nazimnavas145@gmail.com>
+Date: Sat, 24 Dec 2022 15:00:27 +0000
+Subject: [PATCH] Add missing texfat FS driver name
+
+Change-Id: Id09858a4dbf9bfd9d5425167f4a5e9dca34c238a
+---
+ main.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/main.cpp b/main.cpp
+index e33570b..e50872c 100644
+--- a/main.cpp
++++ b/main.cpp
+@@ -72,6 +72,7 @@ int main(int argc, char** argv) {
+     ATRACE_BEGIN("main");
+ 
+     LOG(DEBUG) << "Detected support for:"
++               << (android::vold::IsFilesystemSupported("texfat") ? " texfat" : "")
+                << (android::vold::IsFilesystemSupported("exfat") ? " exfat" : "")
+                << (android::vold::IsFilesystemSupported("ext4") ? " ext4" : "")
+                << (android::vold::IsFilesystemSupported("f2fs") ? " f2fs" : "")
+-- 
+2.25.1
+

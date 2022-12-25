@@ -1,0 +1,33 @@
+From 03c1adf10af2a2a0f8debb09c4f725f5a2edd8fb Mon Sep 17 00:00:00 2001
+From: naz664 <nazimnavas145@gmail.com>
+Date: Sat, 24 Dec 2022 14:59:42 +0000
+Subject: [PATCH] remove dublicated adb-flag
+
+Change-Id: I2e1bd509ab5bef1c73f9c90baba3092d3a1c5c03
+---
+ config/common.mk | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/config/common.mk b/config/common.mk
+index 523ac170..21771768 100644
+--- a/config/common.mk
++++ b/config/common.mk
+@@ -18,8 +18,8 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
+ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=0
+ else
+ # Enable ADB authentication
+-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
+-endif
++#PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
++#endif
+ 
+ # Enable one-handed mode
+ PRODUCT_PRODUCT_PROPERTIES += \
+@@ -208,3 +208,4 @@ ifeq ($(TARGET_SUPPORTS_QUICK_TAP),true)
+ PRODUCT_COPY_FILES += \
+     vendor/bliss/prebuilt/common/etc/sysconfig/quick_tap.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/quick_tap.xml
+ endif
++endif
+-- 
+2.25.1
+
